@@ -1,10 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-const Privateroute = ({allowedRoles}) => {
+
+// CHANGE component name to use PascalCase
+const PrivateRoute = ({allowedRoles}) => {
   return (
     <div>
       <Outlet/>
     </div>
   );
 }
-export default Privateroute;
+
+// CHANGE export name to use PascalCase
+export default PrivateRoute;
